@@ -4,6 +4,7 @@ import { FiUser } from 'react-icons/fi';
 import { LuShoppingCart } from 'react-icons/lu';
 import { BiMenuAltLeft } from 'react-icons/bi';
 import { useState } from 'react';
+import Navbar from './Navbar';
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -17,17 +18,17 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between p-5">
           <div className="flex items-center justify-between gap-4 w-full md:w-auto">
-            <div className="bg-sky-50 p-2 rounded-xl block md:hidden">
+            <div className="bg-sky-50 p-2 rounded-xl block lg:hidden">
               <BiMenuAltLeft className="text-sky-500" size={35} onClick={toggleSidebar} />
             </div>
             <h2 className="text-3xl font-bold text-sky-600">MegaMart</h2>
           </div>
-          <div className="relative w-[40%] bg-sky-50 hidden md:flex items-center p-3 rounded-xl">
+          <div className="relative w-[40%] bg-sky-50 hidden lg:flex items-center p-3 rounded-xl">
             <BiSearch className="text-sky-500 font-bold" size={25} />
             <input type="text" className="w-full opacity-50 text-sm focus:outline-none" placeholder="Search essentials, groceries and more..." />
             <AiOutlineBars className="text-sky-500 font-bold" size={25} />
           </div>
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden lg:flex items-center gap-4">
             <div className="flex items-center gap-2">
               <FiUser className="text-sky-500" size={25} />
               <span className="font-semibold text-gray-600 cursor-pointer">Sign Up/Sign In</span>
@@ -73,6 +74,7 @@ const Header = () => {
             <input type="text" className="w-full opacity-50 text-sm focus:outline-none" placeholder="Search essentials, groceries and more..." />
             <AiOutlineBars className="text-sky-500 font-bold" size={25} />
           </div>
+          <Navbar />
         </div>
       </div>
     </div>
