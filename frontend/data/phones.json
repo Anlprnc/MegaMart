@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Galaxy S22 Ultra",
+    "image": "/samsung.png",
+    "originalPrice": 1200,
+    "discountedPrice": 1080,
+    "discount": "10%"
+  },
+  {
+    "id": 2,
+    "name": "Galaxy M13",
+    "image": "/galaxy-m13.png",
+    "originalPrice": 999,
+    "discountedPrice": 899,
+    "discount": "10%"
+  },
+  {
+    "id": 3,
+    "name": "Galaxy M33",
+    "image": "/galaxy-m33.png",
+    "originalPrice": 599,
+    "discountedPrice": 499,
+    "discount": "17%"
+  },
+  {
+    "id": 4,
+    "name": "Galaxy M53",
+    "image": "/galaxy-m53.png",
+    "originalPrice": 729,
+    "discountedPrice": 649,
+    "discount": "11%"
+  },
+  {
+    "id": 5,
+    "name": "Galaxy S22 Ultra",
+    "image": "/s22-ultra.png",
+    "originalPrice": 1200,
+    "discountedPrice": 1000,
+    "discount": "13%"
+  }
+]
