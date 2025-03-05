@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Mobile",
+    "image": "/categories/mobile.png"
+  },
+  {
+    "id": 2,
+    "name": "Cosmetics",
+    "image": "/categories/cosmetics.png"
+  },
+  {
+    "id": 3,
+    "name": "Electronics",
+    "image": "/categories/electronics.png"
+  },
+  {
+    "id": 4,
+    "name": "Furniture",
+    "image": "/categories/furniture.png"
+  },
+  {
+    "id": 5,
+    "name": "Watches",
+    "image": "/categories/watches.png"
+  },
+  {
+    "id": 6,
+    "name": "Decor",
+    "image": "/categories/decor.png"
+  },
+  {
+    "id": 7,
+    "name": "Accessories",
+    "image": "/categories/accesories.png"
+  }
+]

@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
 import Smartphones from './components/Smartphones';
+import TopCategories from './components/TopCategories';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </div>
         <Carousel />
         <Smartphones />
+        <TopCategories />
       </div>
     </>
   );
