@@ -6,6 +6,7 @@ import Smartphones from './components/Smartphones';
 import TopCategories from './components/TopCategories';
 import ElectronicsBrands from './components/ElectronicsBrands';
 import DailyEssentails from './components/DailyEssentails';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <TopCategories />
         <ElectronicsBrands />
         <DailyEssentails />
+        <Footer />
       </div>
     </>
   );
