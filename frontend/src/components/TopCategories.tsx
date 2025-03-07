@@ -13,7 +13,7 @@ const TopCategories = () => {
           <MdOutlineKeyboardArrowRight className="text-sky-500" size={20} />
         </div>
       </div>
-      <div className="flex items-center justify-center lg:justify-between flex-wrap gap-4 mt-5">
+      <div className="flex items-center justify-center lg:justify-between flex-wrap gap-4 mt-5 mx-5 xl:mx-0">
         {categories.map((category) => (
           <div key={category.id} className="text-center">
             <div className="relative rounded-full hover:border hover:border-sky-500 bg-gray-100 w-[124px] h-[124px] flex justify-center items-center overflow-hidden">

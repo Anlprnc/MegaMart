@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
 import Smartphones from './components/Smartphones';
 import TopCategories from './components/TopCategories';
+import ElectronicsBrands from './components/ElectronicsBrands';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Carousel />
         <Smartphones />
         <TopCategories />
+        <ElectronicsBrands />
       </div>
     </>
   );

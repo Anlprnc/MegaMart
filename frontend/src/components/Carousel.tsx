@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const images = ['/watch.jpg', '/macbook.jpg']; // Resimlerinizi buraya ekleyin
+  const images = ['/watch.jpg', '/macbook.jpg'];
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
