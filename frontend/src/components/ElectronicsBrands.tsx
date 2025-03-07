@@ -2,10 +2,10 @@ import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
 const ElectronicsBrands = () => {
   return (
-    <div className="container mx-auto mt-10">
+    <div className="container mx-auto mt-10 md:mt-20">
       <div className="border-b border-gray-200 flex items-center justify-between">
         <h3 className="border-b-3 border-sky-500 pb-2 text-sm md:text-lg font-semibold text-gray-500">
-          Shop From <span className="text-sky-500">Top Electronics Brands</span>
+          Top <span className="text-sky-500">Electronics Brands</span>
         </h3>
         <div className="flex items-center gap-1 pb-2 text-xs md:text-sm text-gray-500 cursor-pointer">
           View All

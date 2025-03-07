@@ -5,6 +5,7 @@ import Carousel from './components/Carousel';
 import Smartphones from './components/Smartphones';
 import TopCategories from './components/TopCategories';
 import ElectronicsBrands from './components/ElectronicsBrands';
+import DailyEssentails from './components/DailyEssentails';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Smartphones />
         <TopCategories />
         <ElectronicsBrands />
+        <DailyEssentails />
       </div>
     </>
   );
